@@ -8,10 +8,10 @@
       "scripting"
     ],
     "content_scripts": [
-      {
-        "matches": ["https://www.facebook.com/saved/*"],
-        "js": ["content.js"]
-      }
+    {
+      "matches": ["https://www.facebook.com/saved/?cref=28"],
+      "js": ["content.js"]
+    }
     ],
     "action": {
       "default_popup": "popup.html",
